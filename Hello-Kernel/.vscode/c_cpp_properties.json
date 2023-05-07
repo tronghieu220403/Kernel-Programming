@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/usr/src/linux-headers-5.19.0-41-generic/include",
+                    "/usr/src/linux-headers-5.19.0-41-generic/arch/x86/include",
+                    "${workspaceFolder}"
+                ]
+            },
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/usr/src/linux-headers-5.19.0-41-generic/arch/x86/include",
+                "/usr/src/linux-headers-5.19.0-41-generic/arch/x86/include/generated",
+                "/usr/src/linux-headers-5.19.0-41-generic/include",
+                "/usr/src/linux-headers-5.19.0-41-generic/arch/x86/include/uapi",
+                "/usr/src/linux-headers-5.19.0-41-generic/arch/x86/include/generated/uapi",
+                "/usr/src/linux-headers-5.19.0-41-generic/include/uapi",
+                "/usr/src/linux-headers-5.19.0-41-generic/include/generated/uapi",
+                "/usr/src/linux-headers-5.19.0-41-generic/ubuntu/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/11/include"
+            ],
+            "compilerArgs": [
+                "-nostdinc",
+                "-include", "/usr/src/linux-headers-5.19.0-41-generic/include/linux/kconfig.h",
+                "-include", "/usr/src/linux-headers-5.19.0-41-generic/include/linux/compiler_types.h"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
+
