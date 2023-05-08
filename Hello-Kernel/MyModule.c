@@ -2,9 +2,9 @@
 #include <linux/init.h>
 
 /* Meta Information */
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Johannes 4 GNU/Linux");
-MODULE_DESCRIPTION("A hello world LKM");
+MODULE_LICENSE("GPL v2");
+MODULE_AUTHOR("Hieu GNU/Linux");
+MODULE_DESCRIPTION("A hello world Linux Kernel Module");
 
 /**
  * @brief This function is called, when the module is loaded into the kernel
